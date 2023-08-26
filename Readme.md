@@ -145,7 +145,7 @@ La ultima sección del código "`if  __name__  ==  "__main__":"` asegura la func
 
 **CODIGO FUENTE:**
 
-def main():
+    def main():
     # Solicitar la longitud en centimetros
     centimetros = float(input("Ingrese la longitud en centimetros: "))
 
@@ -177,6 +177,6 @@ def main():
         print(f"{centimetros} centimetros equivalen a {pies} pies. ")
     else:
         print("Opcion invalida, por favor vuelva a intentarlo.")
-    if  __name__  ==  "__main__":
-	    main()
+	if  __name__  ==  "__main__":
+	main()
 
